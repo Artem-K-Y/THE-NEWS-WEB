@@ -185,6 +185,10 @@ a{
     .banner img{
         width: 100%;
     }
+    .footer{
+        height: auto;
+        padding: 25px 0;
+    }
 }
 @media (max-width: 715px){
     .header-menu, .foot-menu{
