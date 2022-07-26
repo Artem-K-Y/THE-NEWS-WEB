@@ -20,7 +20,7 @@ a{
     align-items: center;
     flex-wrap: wrap;
 }
-.container, .banner, .news-partner{
+.box, .banner, .news-partner{
     max-width: 1125px;
     width: 100%;
     display: flex;
@@ -57,16 +57,13 @@ a{
     margin-top: 15px;
 }
 .news {
-    max-width: 1440px;
     width: 100%;
     display: flex;
-    padding: 0 20px;
     flex-wrap: wrap;
     justify-content: center;
 }
 .block-news {
-    max-width: 350px;
-    width: 100%;
+    width: 25%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
